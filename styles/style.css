@@ -28,15 +28,18 @@ body {
 
 .cabecalho__lista__links {
     display: inline;
-    color: var(--color-secundaria);
     list-style-type: none;
 
-    font-size: 1rem;
     font-weight: bolder;
     padding-left: 1em;
 }
 
-.cabecalho__lista__links:hover {
+.cabecalho__lista__links__navegacao {
+    text-decoration: none;
+    color: var(--color-secundaria);
+}
+
+.cabecalho__lista__links__navegacao:hover {
     font-size: 1.1rem;
     color: var(--color-quaternaria);
 }
